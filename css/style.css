@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Slab|Roboto+Mono');
+
+/*font-family: 'Nova Flat', cursive;
+font-family: 'Roboto Mono', monospace;
+//font-family: 'Roboto Mono', monospace;
+font-family: 'Josefin Slab', serif;
+font-family: 'Comfortaa', cursive;
+
+*/
+ 
+.navbar{
+background-color: #312450;
+width: 100%;
+height: 50px;
+    overflow: hidden;
+        color:gainsboro;
+text-align: center;
+font-family: 'Roboto Mono', monospace;
+text-transform: uppercase;
+}
+.navbar ul{
+list-style: none;
+}
+.navbar ul li {  
+text-align: center;
+    margin:10px;
+display: inline;
+    cursor: pointer;
+}
+.navbar ul li span{
+font-size: 11.3px;
+        opacity: .5;
+letter-spacing: 2px;
+}
+.navbar ul li span:hover{
+    color: white;
+        opacity: 1;
+  border-bottom: 3px RED solid;
+    padding-bottom: 5px;
+}
+.header{
+width: 100%;
+    overflow: hidden;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Josefin Slab', serif;
+font-family: 'Comfortaa', cursive;
+text-align: left;
+    color: whitesmoke;
+    background-color: #5e42a6;
+height: 600px;
+    }
+.container{
+margin-top: 150px;
+    margin-left: 100px;
+}
+.header h1{
+font-size: 50px;
+}
+.header p{
+font-size: 20px;
+}
+.header button{
+padding: 15px 40px;
+background: none;
+font-family: 'PT Sans', sans-serif;
+color: whitesmoke;
+    border: solid whitesmoke 1px;
+border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.header button:focus{outline: none;
+}
+.header button:hover{background-color: #432a84;}
+.header span{    
+    border-bottom: 3px whitesmoke dotted;
+    opacity: .5;
+}
+.header span:hover{
+    opacity: 1;
+    cursor: pointer;
+    border: none;
+}
+
+.who{
+width: 100%;
+    overflow: hidden;
+text-align: left;
+    color: whitesmoke;
+font-family: 'Nova Flat', cursive;
+}
+
+.who .one{
+    height: 263px;
+    background-color: #5052b5;
+}
+.who .one .photo{
+width: 30%;
+    float: left;
+    height: 100%;
+}
+.who .one .photo img{
+width: 100%;
+        height: 100%;
+}
+
+.who .one .content{
+float: right;
+width: 70%;
+    margin: 0px 0px;
+        height: 100%;
+}
+.who .one .content .container{
+margin-top: 50px;
+    margin-left: 50px;
+}
+.who .one .content .container button{
+padding: 15px 40px;
+background: none;
+font-family: 'PT Sans', sans-serif;
+color: whitesmoke;
+    border: solid whitesmoke 1px;
+border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+
+.who .one .content .container button:focus{outline: none;
+}
+.who .one .content .container button:hover{background-color: #432a84;}
+
+.who .two{
+    height: 263px;
+    background-color: #3052b5;
+}
+.who .two .photo{
+width: 30%;
+    float: left;
+    height: 100%;
+}
+.who .two .photo img{
+width: 100%;
+        height: 100%;
+}
+
+.who .two .content{
+float: right;
+width: 70%;
+    margin: 0px 0px;
+        height: 100%;
+}
+.who .two .content .container{
+margin-top: 50px;
+    margin-left: 50px;
+}
+.who .two .content .container button{
+padding: 15px 40px;
+background: none;
+font-family: 'PT Sans', sans-serif;
+color: whitesmoke;
+    border: solid whitesmoke 1px;
+border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+
+.who .two .content .container button:focus{outline: none;
+}
+.who .two .content .container button:hover{background-color: #432a84;}
+
+.who .three{
+    height: 263px;
+    background-color: #1052b5;
+}
+.who .three .photo{
+width: 30%;
+    float: left;
+    height: 100%;
+}
+.who .three .photo img{
+width: 100%;
+        height: 100%;
+}
+
+.who .three .content{
+float: right;
+width: 70%;
+    margin: 0px 0px;
+        height: 100%;
+}
+.who .three .content .container{
+margin-top: 50px;
+    margin-left: 50px;
+}
+.who .three .content .container button{
+padding: 15px 40px;
+background: none;
+font-family: 'PT Sans', sans-serif;
+color: whitesmoke;
+    border: solid whitesmoke 1px;
+border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+
+.who .three .content .container button:focus{outline: none;
+}
+.who .three .content .container button:hover{background-color: #432a84;}
+
+
+.what{
+width: 100%;
+    overflow: hidden;
+text-align: center;
+    color: whitesmoke;
+font-family: 'Nova Flat', cursive;
+    background-color: #b74e91;
+}
+.what .contentt{
+margin: 10px 20px;
+}
+
+.features{
+width: 90%;
+    overflow: hidden;
+    margin: 50px 50px;
+    background-color: #d65eaa;
+    text-align: left;
+}
+
+.features .first .one{
+float: left;
+}
+.features .first .one .content{
+float: left;
+}
+
+.features .first .one i{
+background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px 10px;
+color:#b74e91;
+    float: left;
+}
+.features .first .two{
+float: right;
+    border: 1px solid white;
+    background-color: #ba2383;
+}
+.features .first .two .content{
+float: left;
+}
+
+.features .first .two i{
+background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px 10px;
+color:#b74e91;
+    float: left;
+}
+
+
+.what button{
+padding: 15px 40px;
+background: none;
+font-family: 'PT Sans', sans-serif;
+color: whitesmoke;
+    border: solid whitesmoke 1px;
+border-radius: 30px;
+    cursor: pointer;
+    margin: 10px 50px;
+    float: left;
+}
+
+
+.what button:focus{outline: none;
+}
+.what button:hover{background-color: #d65eaa;}
+
+.get{
+background-color: #5e42a6;
+    width: 100%;
+    overflow: hidden;
+text-align: left;
+    color: whitesmoke;
+font-family: 'Nova Flat', cursive;
+}
+.get .content{
+margin: 50px;
+}
+
+.form{
+width: 60%;
+    margin: 10px;
+float: left;
+        border-right: 2px solid white;
+
+}
+.sssd{
+    width: 100%%;
+    overflow: hidden;
+        margin: 10px 20px;
+}
+
+.name{
+float: left;
+    margin: 0 20px;
+}
+.sssd input{
+padding: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+border: none;
+    border-radius: 5px;
+}
+
+
+.message{
+    width: 100%%;
+    overflow: hidden;
+        margin: 10px 20px;
+}
+.message input{
+padding: 100px;
+    background-color: rgba(255, 255, 255, 0.15);
+border: none;
+    border-radius: 5px;
+}
+.message h2{
+margin: 10px 20px;}
+
+.message button{
+padding: 15px 40px;
+background: none;
+font-family: 'PT Sans', sans-serif;
+color: whitesmoke;
+    border: solid whitesmoke 1px;
+border-radius: 30px;
+    cursor: pointer;
+    margin: 10px 20px;
+    float: left;
+}
+.message button:focus{outline: none;
+}
+.message button:hover{background-color:rgba(255, 255, 255, 0.15);}
+
+input:focus{outline: none;
+    border: 2px solid white;
+}
+
+.info{
+width: 30%;
+    overflow: hidden;
+    float: right;
+}
+.social ul{
+list-style: none;
+}
+.social ul li {  
+    margin:0px;
+display: inline;
+    cursor: pointer;
+}
+.social ul li {
+font-size: 11.3px;
+        opacity: .5;
+}
+.social ul li:hover{
+    color: white;
+        opacity: 1;
+}
+
+.foot{
+    background-color: #493382;
+    width: 100%;
+}
