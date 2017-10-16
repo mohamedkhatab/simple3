@@ -41,7 +41,7 @@ letter-spacing: 2px;
   border-bottom: 3px RED solid;
     padding-bottom: 5px;
 }
-.header{
+#header{
 width: 100%;
     overflow: hidden;
 font-family: 'Roboto Mono', monospace;
@@ -56,13 +56,13 @@ height: 600px;
 margin-top: 150px;
     margin-left: 100px;
 }
-.header h1{
+#header h1{
 font-size: 50px;
 }
-.header p{
+#header p{
 font-size: 20px;
 }
-.header button{
+#header button{
 padding: 15px 40px;
 background: none;
 font-family: 'PT Sans', sans-serif;
@@ -72,14 +72,14 @@ border-radius: 30px;
     cursor: pointer;
     margin: 20px 0px;
 }
-.header button:focus{outline: none;
+#header button:focus{outline: none;
 }
-.header button:hover{background-color: #432a84;}
-.header span{    
+#header button:hover{background-color: #432a84;}
+#header span{    
     border-bottom: 3px whitesmoke dotted;
     opacity: .5;
 }
-.header span:hover{
+#header span:hover{
     opacity: 1;
     cursor: pointer;
     border: none;
